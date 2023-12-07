@@ -20,10 +20,8 @@ fn fizzbuzz () -> i32 {
 fn main() {
 
     println!(" Welcome to the solana bootcamp! ");
-    
-    let fizzbuzz_count = fizzbuzz();
 
-    println!("Number of times 'fizz buzz' occurred: {}", fizzbuzz_count);
+    println!("fizzbuzz occurred {} times", fizzbuzz());
 
-    println!("Hello, world!");
+    // println!("Hello, world!");
 }
