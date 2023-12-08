@@ -1,6 +1,6 @@
-fn fizzbuzz () -> i32 {
+fn fizzbuzz () -> u32 {
 
-    let mut fizzbuzz_counter : i32  = 0;
+    let mut fizzbuzz_counter : u32  = 0;
 
     for i in 1..=301 {
         if i % 3 == 0 && i % 5 == 0 {
@@ -15,6 +15,7 @@ fn fizzbuzz () -> i32 {
 
     return fizzbuzz_counter;
 }
+
 
 
 fn main() {
